@@ -1,0 +1,23 @@
+#errorContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#errorTitle {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#errorMessage {
+    display: flex;
+    height: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
