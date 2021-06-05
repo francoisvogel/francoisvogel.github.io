@@ -61,9 +61,7 @@ header {
 }
 
 #container {
-    height: 100%;
+    height: auto;
     width: 70%;
     margin: 1%;
-    display: flex;
-    flex-wrap: wrap;
 }

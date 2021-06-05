@@ -1,5 +1,12 @@
+#contactContainer {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .box {
-    height: 20%;
+    height: 150px;
     width: 40%;
     margin: 4%;
     padding: 1%;
@@ -13,6 +20,7 @@
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: 1s;
+    color: black;
 }
 
 .box:hover {
@@ -26,6 +34,7 @@
     margin: 0;
     padding: 0;
     transition: 1s;
+    color: black;
 }
 
 .logo:hover {

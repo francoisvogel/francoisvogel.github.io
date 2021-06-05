@@ -1,0 +1,1 @@
+Hi, I'm a 15-year-old student at Lycée Louis-le-Grand in Paris. I love competitive programming ever since I started coding five years ago. I also like to play some Jazz on my piano and I'm a hobbyist drone flyer.
