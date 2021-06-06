@@ -34,7 +34,7 @@
 						var mainContainer = document.getElementById("blogContainer");
 						console.log(data.length);
 						for (var i = 0; i < data.length; i++) {
-							console.log("run1"+i);
+							console.log("run"+i);
 							var box = document.createElement("div");
 							box.setAttribute("class", "blogPost");
 							var title = document.createElement("div");
@@ -53,6 +53,7 @@
 							box.appendChild(authorDate);
 							box.appendChild(image);
 							box.appendChild(description);
+							mainContainer.appendChild(box);
 						}
 					}
 				</script>
