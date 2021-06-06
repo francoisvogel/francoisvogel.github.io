@@ -43,8 +43,8 @@
 							authorDate.setAttribute("class", "authorDate");
 							authorDate.innerHTML = "By "+data[i].author+" on "+data[i].day+" at "+data[i].time;
 							var image = document.createElement("img");
-							image.setAttribute("src", "./images/portrait.jpeg");
-							image.setAttribute("class", data[i].image);
+							image.setAttribute("src", data[i].image);
+							image.setAttribute("class", "");
 							var description = document.createElement("div");
 							description.setAttribute("class", "description");
 							description.innerHTML = data[i].description;
