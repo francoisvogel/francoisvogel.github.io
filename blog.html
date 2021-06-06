@@ -32,7 +32,7 @@
 						});
 					function appendData(data) {
 						var mainContainer = document.getElementById("blogContainer");
-						for (var i = 0; i < data.length; i++) {
+						for (var i = data.length-1; i >= 0; i--) {
 							var box = document.createElement("a");
 							box.setAttribute("href", data[i].redirect)
 							box.setAttribute("class", "blogPost");
