@@ -33,7 +33,8 @@
 					function appendData(data) {
 						var mainContainer = document.getElementById("blogContainer");
 						for (var i = 0; i < data.length; i++) {
-							var box = document.createElement("div");
+							var box = document.createElement("a");
+							box.setAttribute("href", data[i].redirect)
 							box.setAttribute("class", "blogPost");
 							var title = document.createElement("div");
 							title.setAttribute("class", "title");
