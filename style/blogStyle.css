@@ -12,8 +12,10 @@
     display: flex;
     height: 250px;
     width: 400px;
-    margin: 30px;
+    margin: 20px;
     border-radius: 10%;
     background-color: gainsboro;
-    color: blue;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
