@@ -34,7 +34,7 @@
 						var mainContainer = document.getElementById("blogContainer");
 						for (var i = 0; i < data.length; i++) {
 							var div = document.createElement("div");
-							div.className='.blogPost'
+							div.setAttribute("class", ".blogPost");
 							div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
 							mainContainer.appendChild(div);
 						}
