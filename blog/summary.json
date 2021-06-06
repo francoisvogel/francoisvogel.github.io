@@ -6,6 +6,7 @@
         "day":"6/6/21",
         "time":"08:25 pm",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image":"./images/portrait.jpeg"
+        "image":"./images/portrait.jpeg",
+        "redirect":"https://www.google.com"
     }
 ]
