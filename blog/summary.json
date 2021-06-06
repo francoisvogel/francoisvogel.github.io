@@ -1,17 +1,11 @@
 [
     {
-        "id": "1",
-        "firstName": "John",
-        "lastName": "Doe"
-    },
-    {
-        "id": "2",
-        "firstName": "Mary",
-        "lastName": "Peterson"
-    },
-    {
-        "id": "3",
-        "firstName": "George",
-        "lastName": "Hansen"
+        "id":"1",
+        "title":"Binary Search",
+        "author":"Francois Vogel",
+        "day":"6/6/21",
+        "time":"08:25 pm",
+        "description":"Introduction to binary search and logarithmic time complexity",
+        "image":"./image/portrait.jpeg";
     }
 ]

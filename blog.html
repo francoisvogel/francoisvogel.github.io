@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="./style/global.css">
       <link rel="stylesheet" href="./style/blogStyle.css">
    </head>
-   <body>
+   <body onload="test()">
 		<header>
          <a href="./blog.html" class="tab tabExceptImage"><p class="tab">Blog</p></a>
          <a href="./index.html" class="tab"><img src="./images/portrait.jpeg" class=tab id=portrait></a>
@@ -32,14 +32,57 @@
 						});
 					function appendData(data) {
 						var mainContainer = document.getElementById("blogContainer");
-						for (var i = 0; i < data.length; i++) {
-							var div = document.createElement("div");
-							div.setAttribute("class", "blogPost");
-							div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-							mainContainer.appendChild(div);
+						for (var i = data.length-1; i >= 0; i--) {
+							var box = document.createElement("div");
+							box.setAttribute("class", "blogPost");
+							var title = document.createElement("div");
+							title.setAttribute("class", "title");
+							title.innerHTML = data[i].title;
+							var authorDate = document.createElement("div");
+							authorDate.setAttribute("class", "authorDate");
+							authorDate.innerHTML = "By "+data[i].author+" on "+data[i].day+" at "+data[i].time;
+							var image = document.createElement("img");
+							image.setAttribute("src", "./images/portrait.jpeg");
+							image.setAttribute("class", data[i].image);
+							var description = document.createElement("div");
+							description.setAttribute("class", "description");
+							description.innerHTML = data[i].description;
+							box.appendChild(title);
+							box.appendChild(authorDate);
+							box.appendChild(image);
+							box.appendChild(description);
 						}
 					}
-			  </script>		 
+				</script>
+				<script>
+					function test() {
+						var mainContainer = document.getElementById("blogContainer");
+						var box = document.createElement("div");
+						box.setAttribute("class", "blogPost");
+						var title = document.createElement("div");
+						title.setAttribute("class", "title");
+						title.innerHTML = "Title_F";
+						var authorDate = document.createElement("div");
+						authorDate.setAttribute("class", "authorDate");
+						authorDate.innerHTML = "Created by on DAY at TIME";
+						var image = document.createElement("img");
+						image.setAttribute("src", "./images/portrait.jpeg");
+						image.setAttribute("class", "image");
+						var description = document.createElement("div");
+						description.setAttribute("class", "description");
+						description.innerHTML = "description_T";
+						box.appendChild(title);
+						box.appendChild(authorDate);
+						box.appendChild(image);
+						box.appendChild(description);
+						mainContainer.appendChild(box);
+					}
+				</script>
+				<div class="blogPost">something1</div>
+				<div class="blogPost">something2</div>
+				<div class="blogPost">something3</div>
+				<div class="blogPost">something4</div>
+				<div class="blogPost">something5</div>
 			</div>
 		</div>
    </body>
