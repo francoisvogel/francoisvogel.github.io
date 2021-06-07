@@ -1,4 +1,4 @@
-html, body, nav, p, h1, h2, h3, h4, h5, h6 {
+html, body, nav, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
@@ -15,9 +15,9 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     background-color: whitesmoke;
+    min-height: 100vh;
 }
 
 header {
@@ -75,4 +75,5 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: gainsboro;
+    margin-top: auto;
 }

@@ -1,7 +1,6 @@
 #homePageContainer {
     margin-top: 10px;
     display: flex;
-    background-clip: ;
     background-image: url("./../images/first_launch.jpg");
     background-size: cover;
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -37,6 +36,7 @@ h1:hover {
 }
 
 #aboutMePart {
+    border-top: 8vw solid transparent;
     display: flex;
     height: 100vh;
     width: 90%;
