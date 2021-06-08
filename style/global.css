@@ -3,7 +3,7 @@ html, body, nav, h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-div, p, h1, h2, h3, h4, h5, h6 {
+div, a, p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -21,7 +21,8 @@ body {
 }
 
 header {
-    height: 8vw;
+    height: 7vw;
+    max-height: 80px;
     width: 100%;
     position: fixed;
     display: flex;
@@ -41,7 +42,8 @@ header {
 }
 
 .tabExceptImage {
-    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
     transition: 0.5s;
 }
 
@@ -61,7 +63,7 @@ header {
 }
 
 #container {
-    border-top: 8vw solid transparent;
+    border-top: 80px solid transparent;
     height: auto;
     width: 70%;
     margin-left: 1%;
@@ -69,11 +71,28 @@ header {
 }
 
 footer {
-    height: 8vw;
+    height: 3vw;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: gainsboro;
     margin-top: auto;
+}
+
+.footerTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    transition: 1s;
+}
+
+.footerTab:hover {
+    background-color: whitesmoke;
 }
