@@ -1,12 +1,12 @@
 [
     {
         "id":"1",
-        "title":"Test",
+        "title":"C++ with VS Code",
         "author":"Francois Vogel",
-        "day":"6/6/21",
+        "day":"06/09/21",
         "time":"08:25 pm",
-        "description":"Lorem ipsum dolor sit amet.",
+        "description":"A detailed explanation on how to use C++ with VS Code",
         "image":"./images/portrait.jpeg",
-        "redirect":"./error.html"
+        "redirect":"./blog/images/debuggingOptions.PNG"
     }
 ]

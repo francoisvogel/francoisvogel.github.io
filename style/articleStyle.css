@@ -1,0 +1,111 @@
+.title {
+    font-size: 40px;
+}
+
+.under {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.6s;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.code {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    white-space: pre;
+    max-width: 100%;
+    margin: 20px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.image {
+    display: flex;
+    max-width: 40vw;
+    height: auto;
+    max-height: 500px;
+    border: 10px solid gainsboro;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+code {
+    background-color: gainsboro;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 3px;
+    font-size: 15px;
+}
+
+.proTip {
+    font-size: 15px;
+    margin: 3px;
+    padding: 3px;
+    border: 6px solid gainsboro;
+    border-radius: 5px;
+    animation: changeBorderColor 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: max-content;
+    max-width: 100%;
+    text-align: center;
+}
+
+@keyframes changeBorderColor {
+    0% {
+        border-color: red;
+    }
+    50% {
+        border-color: green;
+    }
+    75% {
+        border-color: blueviolet;
+    }
+    100% {
+        border-color: rgb(248, 8, 196);
+    }
+}
