@@ -3,3 +3,4 @@ https://francoisvogel.io/contact.html
 https://francoisvogel.io/siteMap.html
 https://francoisvogel.io/blog.html
 https://francoisvogel.io/vsCodeCPP.html
+https://francoisvogel.io/adminOnUnowhy.html
