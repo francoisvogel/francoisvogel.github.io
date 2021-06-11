@@ -1,17 +1,26 @@
 .sub {
-    width: auto;
+    width: max-content;
     font-size: 30px;
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
     color: black;
+    border-radius: 5px;
 }
 
 .subSub {
-    width: auto;
+    width: max-content;
     font-size: 20px;
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
     color: black;
+    transition: 0.3s;
+}
+
+.subSub:hover {
+    background-color: gainsboro;
 }
