@@ -9,4 +9,14 @@
         "image":"./blog/images/debuggingOptions.PNG",
         "redirect":"./vsCodeCPP.html"
     }
+    {
+        "id":"2",
+        "title":"Obtenir les droits d'admin sur le PC Unowhy Y13",
+        "author":"Francois Vogel",
+        "day":"06/11/21",
+        "time":"09:54 pm",
+        "description":"Une guide étape par étape pour obtenir les droits d'admin sur votre PC",
+        "image":"https://assistanceidf.zendesk.com/hc/article_attachments/360018881060/img_ambiance_desktop_y13.png",
+        "redirect":"./adminOnUnowhy.html"
+    }
 ]
