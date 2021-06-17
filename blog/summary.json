@@ -7,7 +7,7 @@
         "time":"08:25 pm",
         "description":"A detailed explanation on how to use C++ with VS Code",
         "image":"./blog/images/debuggingOptions.PNG",
-        "redirect":"./vsCodeCPP.html"
+        "redirect":"./vsCodeCPP.php"
     },
     {
         "id":"2",
@@ -17,6 +17,6 @@
         "time":"09:54 pm",
         "description":"Une guide étape par étape pour obtenir les droits d'admin sur votre PC",
         "image":"https://assistanceidf.zendesk.com/hc/article_attachments/360018881060/img_ambiance_desktop_y13.png",
-        "redirect":"./adminOnUnowhy.html"
+        "redirect":"./adminOnUnowhy.php"
     }
 ]
