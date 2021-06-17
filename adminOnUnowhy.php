@@ -23,13 +23,13 @@
    </head>
    <body>
       <header>
-         <a href="./blog.html" class="tab tabExceptImage"><p class="tab">Blog</p></a>
-         <a href="./index.html" class="tab"><img src="./images/portrait.jpeg" class=tab id=portrait></a>
-         <a href="./contact.html" class="tab tabExceptImage"><p class="tab">Contact</p></a>
+         <a href="./blog.php" class="tab tabExceptImage"><p class="tab">Blog</p></a>
+         <a href="./index.php" class="tab"><img src="./images/portrait.jpeg" class=tab id=portrait></a>
+         <a href="./contact.php" class="tab tabExceptImage"><p class="tab">Contact</p></a>
       </header>
       <div id="container">
          <div class="title">Devenir admin sur un PC Unowhy</div>
-         <div class="under">By Francois Vogel en 06/11/2021</div>
+         <div class="under">By Francois Vogel on 06/11/2021</div>
          <div class="intro">Unowhy Y13 est un modèle de PC qui a été offert aux élèves de la région Ile-de-France en trôtre. Ce tutoriel a pour but de vous expliqer comment obtenir les droits d'administrateur afin de pouvoir installer des applications.</div>
          <div class="subtitle">Réinitialisation</div>
          <p>Dans un premier temps, il va falloir réinitialiser le PC Unowhy.</p>
@@ -92,7 +92,7 @@
       <footer>
          <a href="./privacy_policy.md" class="footerTab">Privacy Policy</a>
          <p style="font-size: 10px; display: flex; justify-content: center; align-items: center;">Copyright © 2021 Francois Vogel - All rights reserved</p>
-         <a href="./siteMap.html" class="footerTab">Site Map</a>
+         <a href="./siteMap.php" class="footerTab">Site Map</a>
       </footer>
    </body>
 </html>

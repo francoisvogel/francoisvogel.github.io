@@ -23,13 +23,13 @@
    </head>
    <body>
       <header>
-         <a href="./blog.html" class="tab tabExceptImage"><p class="tab">Blog</p></a>
-         <a href="./index.html" class="tab"><img src="./images/portrait.jpeg" class=tab id=portrait></a>
-         <a href="./contact.html" class="tab tabExceptImage"><p class="tab">Contact</p></a>
+         <a href="./blog.php" class="tab tabExceptImage"><p class="tab">Blog</p></a>
+         <a href="./index.php" class="tab"><img src="./images/portrait.jpeg" class=tab id=portrait></a>
+         <a href="./contact.php" class="tab tabExceptImage"><p class="tab">Contact</p></a>
       </header>
       <div id="container">
          <div id="homePageContainer">
-            <a href="./index.html#aboutMePart" style="display: flex; flex-direction: column; justify-content: center; align-items: center; color: black; text-decoration: none;"><h1>Hi, I'm Francois Vogel!</h1></a>
+            <a href="./index.php#aboutMePart" style="display: flex; flex-direction: column; justify-content: center; align-items: center; color: black; text-decoration: none;"><h1>Hi, I'm Francois Vogel!</h1></a>
             <h3 style="display: flex; text-align: center; color: whitesmoke;">Shot on DJI Mavic 2 Pro</h3>
          </div>
          <div id="aboutMePart">
@@ -51,13 +51,13 @@
             <img src="./images/homePageShots/10.JPG" class="tile"></img>
             <img src="./images/homePageShots/11.JPG" class="tile"></img>
             <img src="./images/homePageShots/12.JPG" class="tile"></img>
-            <a href="./contact.html" class="com">Contact me if you need drone services, particularly photography and mapping.</a>
+            <a href="./contact.php" class="com">Contact me if you need drone services, particularly photography and mapping.</a>
          </div>
       </div>
       <footer>
          <a href="./privacy_policy.md" class="footerTab">Privacy Policy</a>
          <p style="font-size: 10px; display: flex; justify-content: center; align-items: center;">Copyright © 2021 Francois Vogel - All rights reserved</p>
-         <a href="./siteMap.html" class="footerTab">Site Map</a>
+         <a href="./siteMap.php" class="footerTab">Site Map</a>
       </footer>
    </body>
 </html>
