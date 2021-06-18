@@ -4,7 +4,7 @@ Privacy Policy for:
 
 -asciitable.francoisvogel.io
 
-Google Analytic is being used.
+Google Analytics is being used.
 https://google.com/policies/privacy/partners/
 
 Google Adsense is being used.
